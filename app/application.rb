@@ -9,7 +9,7 @@ def call(env)
       resp.write "Good Afternoon."
     # else
     #   resp.write "Good Evening!"
-    # end
+    end
 
     resp.finish
   end
