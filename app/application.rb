@@ -8,7 +8,6 @@ def call(env)
     elsif Time.now.hour.between?(12, 17)
       resp.write "Good Afternoon."
     end
-
     resp.finish
   end
 end
